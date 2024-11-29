@@ -33,7 +33,7 @@
         <option value="anuselvan" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
@@ -63,7 +63,7 @@
     "Python.main.executor": "Run",
     "Python.upload_controller.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Development",
     "last_opened_file_path": "E:/D_Folder/WorkSpace/Projects/React-flask/React-flask/microservices/common",
     "settings.editor.selected.configurable": "preferences.toDoOptions"
   },
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732857023042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="common folder added">
+      <option name="closed" value="true" />
+      <created>1732857361000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732857361000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
