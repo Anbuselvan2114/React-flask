@@ -9,7 +9,6 @@ services = [
     "auth_service/app.py",
     "upload_service/app.py"
 ]
-
 if __name__ == "__main__":
     processes = []
 
