@@ -1,0 +1,38 @@
+
+
+services:
+  auth_service:
+    build:
+      context: ./auth_service
+    ports:
+      - "5001:5001"
+    networks:
+      - flask_network
+
+  data_service:
+    build:
+      context: ./data_service
+    ports:
+      - "5002:5002"
+    networks:
+      - flask_network
+
+  data_upload:
+    build:
+      context: ./data_upload
+    ports:
+      - "5003:5003"
+    networks:
+      - flask_network
+
+  react_frontend:
+    build:
+      context: ./react-frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - flask_network
+
+networks:
+  flask_network:
+    driver: bridge
