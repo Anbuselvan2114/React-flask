@@ -11,6 +11,7 @@ upload_controller = Blueprint('upload_controller', __name__)
 CORS(upload_controller)
 JWT_SECRET_KEY=Config.JWT_SECRET_KEY
 
+
 if not os.path.exists(Config.UPLOAD_FOLDER):
     os.makedirs(Config.UPLOAD_FOLDER)
 
