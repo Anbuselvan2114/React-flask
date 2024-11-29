@@ -48,33 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "Python.auth_controller.executor": "Run",
-    "Python.auth_service.executor": "Run",
-    "Python.auth_service_bak.executor": "Run",
-    "Python.base_service.executor": "Run",
-    "Python.data_service.executor": "Debug",
-    "Python.data_upload.executor": "Run",
-    "Python.extension.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.upload_controller.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Development",
-    "last_opened_file_path": "E:/D_Folder/WorkSpace/Projects/React-flask/React-flask/microservices/common",
-    "settings.editor.selected.configurable": "preferences.toDoOptions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auth_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auth_service.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auth_service_bak.executor&quot;: &quot;Run&quot;,
+    &quot;Python.base_service.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_service.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.data_upload.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.upload_controller.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/D_Folder/WorkSpace/Projects/React-flask/React-flask/microservices/common&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\microservices\common" />
@@ -84,10 +84,40 @@
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\data_service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\react-frontend\public\icons" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\Services" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\data_upload" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="React-flask" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -137,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732857361000</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="common folder added">
+      <option name="closed" value="true" />
+      <created>1732858173726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732858173726</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

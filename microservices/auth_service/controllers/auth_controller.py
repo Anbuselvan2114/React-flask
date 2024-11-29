@@ -3,7 +3,6 @@ from flask import request, jsonify,Blueprint
 from flask_cors import CORS
 import jwt
 import datetime
-
 from microservices.common.config import Config
 from microservices.auth_service.services.auth_service import authService
 

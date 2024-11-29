@@ -18,7 +18,7 @@ def upload_file():
 
     uploadmodel.DocumentType = request.form.get('DocumentType')
 
-    if 'Authorization' in request.headers:
+    if 'Content-Type' in request.headers:
         contenttype = request.headers['Content-Type']
 
     if 'file' not in request.files:
