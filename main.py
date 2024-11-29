@@ -6,8 +6,8 @@ def run_service(service_path):
 
 # List of services
 services = [
-    "auth_service/app.py",
-    "upload_service/app.py"
+    "microservices/auth_service/app.py",
+    "microservices/upload_service/app.py"
 ]
 if __name__ == "__main__":
     processes = []

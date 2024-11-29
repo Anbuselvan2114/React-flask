@@ -56,6 +56,7 @@
     "Python.auth_controller.executor": "Run",
     "Python.auth_service.executor": "Run",
     "Python.auth_service_bak.executor": "Run",
+    "Python.base_service.executor": "Run",
     "Python.data_service.executor": "Debug",
     "Python.data_upload.executor": "Run",
     "Python.extension.executor": "Run",
@@ -63,18 +64,27 @@
     "Python.upload_controller.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/D_Folder/WorkSpace/Projects/React-flask/React-flask/data_upload",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "E:/D_Folder/WorkSpace/Projects/React-flask/React-flask/microservices/common",
+    "settings.editor.selected.configurable": "preferences.toDoOptions"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\microservices\common" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\data_upload" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\data_upload\controller" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\auth_service" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\data_service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\Services" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask\data_upload" />
       <recent name="E:\D_Folder\WorkSpace\Projects\React-flask\React-flask" />
     </key>
@@ -95,6 +105,31 @@
       <option name="presentableId" value="Default" />
       <updated>1732594587603</updated>
     </task>
+    <task id="LOCAL-00001" summary=" test">
+      <option name="closed" value="true" />
+      <created>1732854933165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732854933165</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" test">
+      <option name="closed" value="true" />
+      <created>1732855123219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732855123219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="common folder added">
+      <option name="closed" value="true" />
+      <created>1732857023042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732857023042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,26 +144,29 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CODE_SMELLS_PROFILE" value="Default" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Your commit message" />
     <MESSAGE value=" test" />
-    <option name="LAST_COMMIT_MESSAGE" value=" test" />
+    <MESSAGE value="common folder added" />
+    <option name="LAST_COMMIT_MESSAGE" value="common folder added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_service/data_service.py</url>
+          <url>file://$PROJECT_DIR$/services/data_service/data_service.py</url>
           <line>47</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_service/data_service.py</url>
+          <url>file://$PROJECT_DIR$/services/data_service/data_service.py</url>
           <line>50</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_service/data_service.py</url>
+          <url>file://$PROJECT_DIR$/services/data_service/data_service.py</url>
           <line>40</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -143,32 +181,32 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/auth_service/controllers/auth_controller.py</url>
+          <url>file://$PROJECT_DIR$/services/auth_service/controllers/auth_controller.py</url>
           <line>13</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/auth_service/controllers/auth_controller.py</url>
+          <url>file://$PROJECT_DIR$/services/auth_service/controllers/auth_controller.py</url>
           <line>17</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/upload_service/controllers/upload_controller.py</url>
+          <url>file://$PROJECT_DIR$/services/upload_service/controllers/upload_controller.py</url>
           <line>45</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/upload_service/app.py</url>
+          <url>file://$PROJECT_DIR$/services/upload_service/app.py</url>
           <line>12</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/upload_service/models/upload_model.py</url>
+          <url>file://$PROJECT_DIR$/services/upload_service/models/upload_model.py</url>
           <line>3</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/upload_service/controllers/upload_controller.py</url>
+          <url>file://$PROJECT_DIR$/services/upload_service/controllers/upload_controller.py</url>
           <line>7</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
