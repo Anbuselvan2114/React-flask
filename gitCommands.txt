@@ -1,0 +1,13 @@
+# Navigate to your project folder
+cd /path/to/your/project
+
+# Initialize a local Git repository
+git init
+# Add a remote repository (replace <url> with the actual URL of your remote repository)
+git remote add origin <url>
+git remote add origin https://github.com/username/repository.git
+git remote -v
+git add .
+git commit -m "Your commit message"
+git push -u origin master
+git pull origin master

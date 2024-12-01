@@ -5,31 +5,42 @@ import axios from "axios";
 const LoginPage = () => {
  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [remember, setRemember] = useState(false);
   const [message, setMessage] = useState("");
   const [token, setToken] = useState(null);
   const navigate = useNavigate();
 
-    useEffect(() => {
-        setToken(null);
-       localStorage.setItem("jwtToken",null);
-    }, [navigate]);
    /* useEffect(() => {
 
-        if(token!=='null')
+        const token = localStorage.getItem('jwtToken');
+        const remember = localStorage.getItem('remember');
+
+        if(localStorage.getItem('jwtToken')=='null' || localStorage.getItem('remember')=='false')
         {
-            navigate("/Home");
+            localStorage.setItem('remember',false);
+            setToken(null)
+            localStorage.setItem("jwtToken",null);
+        }
+        else{
+            setRemember(localStorage.getItem('remember'))
+            navigate("/Home")
         }
 
+    }, [useNavigate]);*/
 
-    }, [navigate]);  // The empty array ensures it runs only once
-*/
+const handleRemember=(e)=>
+{
+    setPassword(e.target.checked);
+    console.log(e.target.checked);
+    localStorage.setItem("remember",e.target.checked);
+}
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post("http://localhost:5001/login", {
         username,
-        password,
+        password
       });
        setToken(response.data.token);
        localStorage.setItem("jwtToken", response.data.token);
@@ -71,6 +82,16 @@ const LoginPage = () => {
                             onChange={(e) => setPassword(e.target.value)}
                             required
                         />
+                    </div>
+                     <div className="mb-3">
+
+                        <input
+                            type="checkbox"
+                            id="remember"
+                            value={remember}
+                            onChange={handleRemember}
+                        />
+                        <label htmlFor="remember" className="form-label">Remember</label>
                     </div>
                     <button type="submit" className="btn btn-primary w-100">Login</button>
                 </form>

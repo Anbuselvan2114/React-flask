@@ -6,6 +6,7 @@ const Home = () => {
 
   const navigate = useNavigate();
   const token = localStorage.getItem('jwtToken');
+  const remember = localStorage.getItem('remember');
 
   const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
@@ -20,14 +21,16 @@ const Home = () => {
   });
   const [file, setFile] = useState(null);
 
-   useEffect(() => {
+  /*  useEffect(() => {
 
-        if(token==='null')
+       if(token==='null')
         {
             navigate("/");
         }
 
-    }, [navigate]);  // The empty array ensures it runs only once
+
+
+    }, [navigate]);*/
 
 
   const handleChange = (e) => {
@@ -53,6 +56,7 @@ const Home = () => {
     data.append('ModelGroup', formData.ModelGroup);
     data.append('Production', formData.Production);
     data.append('Parameter', formData.Parameter);
+    data.append('File', formData.File);
    if (file) {
       data.append('file', file);
     }
